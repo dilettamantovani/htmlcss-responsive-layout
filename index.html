@@ -1,27 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Responsive Layout</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/utilities.css">
-    </head>
 
-    <body>
-        <footer>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utilities.css">
+</head>
 
-        </footer>
+<body>
+    <header class="d-flex justify-between align-center bg-blue">
+        <img class="pl-16 pt-8 pb-8" src="img/logo.png" alt="">
+        <nav class="pr-16">
+            <a class="navbar-item c-white" href="#">Planning</a>
+            <a class="navbar-item c-white" href="#">Testimonials</a>
+            <a class="navbar-item c-white" href="#">Features</a>
+            <a class="navbar-item c-white" href="#">About Us</a>
+            <a class="navbar-item bg-white radius-16 p-6" href="#">Get Started</a>
+        </nav>
+        <i class="fa-sharp fa-solid fa-bars pr-16 c-white"></i>
+    </header>
+
+    <main>
+        <!-- DEMO -->
+        <section id="demo" class="py-16 m-auto">
+            <div id="demo-container" class="px-16">
+                <div class="demo-card large radius-6 bg-lightblue">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ex quibusdam iure, mollitia a distinctio. Possimus enim ad quasi, repudiandae omnis magni aspernatur itaque ullam cupiditate incidunt dignissimos reprehenderit mollitia. 
+                </div>
+
+                <div class="demo-card radius-6 bg-lightblue">
+                    Lorem ipsum dolor sit amet.
+                </div>
+
+                <div class="demo-card radius-6 bg-lightblue">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore quis velit aspernatur!
+                </div>
+
+                <div class="demo-card radius-6 bg-lightblue">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </div>
+
+                <div class="demo-card radius-6 bg-lightblue">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, labore amet.
+                </div>
+            </div>
+        </section>
+
+        <!-- PLANNING -->
+        <section id="planning" class="d-flex flex-column bg-lilac p-16">
+            <div class="plan py-16 m-auto">
+                <img src="#" alt="planning1">
+                <h2 class="c-white">Strategic planning</h2>
+                <p class="c-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quae voluptates adipisci impedit odit modi distinctio ad aperiam nulla dolorum repellat earum temporibus enim deserunt necessitatibus eos, fugiat delectus fugit!</p>
+            </div>
+            <div class="plan bg-white m-auto radius-6 p-8">
+                <img src="#" alt="planning2">
+                <h3>App Development</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut unde laborum aperiam.</p>
+                <i class="fa-solid fa-arrow-down-long bg-lilac"></i>
+            </div>
+        </section>
 
 
-        <main>
+        <section id="testimonials" class="py-32">
+            <p>TESTIMONIALS</p>
+            <h2 class="c-lilac">We are committed expert partners</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel sit, eius itaque optio fugit consequuntur labore quibusdam magnam laboriosam expedita ad at maiores quae minus sequi veniam! Excepturi?</p>
+            <div class="testimonial-card radius-6 bg-lilac c-white">
+                <img src="#" alt="Testimonial Photo">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga nisi velit distinctio odio vel numquam?</p>
+                <p>NAME SURNAME</p>
+            </div>
 
-        </main>
-        
+            <div class="testimonial-card radius-6 bg-lilac c-white">
+                <img src="#" alt="Testimonial Photo">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga nisi velit distinctio odio vel numquam?</p>
+                <p>NAME SURNAME</p>
+            </div>
 
-        <footer>
+            <div class="testimonial-card radius-6 bg-lilac c-white">
+                <img src="#" alt="Testimonial Photo">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga nisi velit distinctio odio vel numquam?</p>
+                <p>NAME SURNAME</p>
+            </div>
+        </section>
 
-        </footer>
-        
-    </body>
+
+        <section id="benefits" class="bg-lilac">
+            <h2 class="c-white pt-16">Benefits of working with us</h2>
+            <div id="benefits-container d-flex flex column">
+                <div class="benefit-card bg-white radius-6 m-16">
+                    <h2 class="c-lilac">O1</h2>
+                    <h3 class="c-lilac">High Quality</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sunt eaque quasi suscipit quaerat quos velit?</p>
+                    <a class="benefit-btn bg-lilac c-white radius-6" href="#">more</a>
+                </div>
+
+                <div class="benefit-card bg-white radius-6 m-16">
+                    <h2 class="c-lilac">O1</h2>
+                    <h3 class="c-lilac">High Quality</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sunt eaque quasi suscipit quaerat quos velit?</p>
+                    <a class="benefit-btn bg-lilac c-white radius-6" href="#">more</a>
+                </div>
+
+                <div class="benefit-card bg-white radius-6 m-16">
+                    <h2 class="c-lilac">O1</h2>
+                    <h3 class="c-lilac">High Quality</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sunt eaque quasi suscipit quaerat quos velit?</p>
+                    <a class="benefit-btn bg-lilac c-white radius-6" href="#">more</a>
+                </div>
+
+                <div class="benefit-card bg-white radius-6 m-16">
+                    <h2 class="c-lilac">O1</h2>
+                    <h3 class="c-lilac">High Quality</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sunt eaque quasi suscipit quaerat quos velit?</p>
+                    <a class="benefit-btn bg-lilac c-white radius-6" href="#">more</a>
+                </div>
+
+                <div class="benefit-card bg-white radius-6 m-16">
+                    <h2 class="c-lilac">O1</h2>
+                    <h3 class="c-lilac">High Quality</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sunt eaque quasi suscipit quaerat quos velit?</p>
+                    <a class="benefit-btn bg-lilac c-white radius-6" href="#">more</a>
+                </div>
+
+                <div class="benefit-card bg-white radius-6 m-16">
+                    <h2 class="c-lilac">O1</h2>
+                    <h3 class="c-lilac">High Quality</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sunt eaque quasi suscipit quaerat quos velit?</p>
+                    <a class="benefit-btn bg-lilac c-white radius-6" href="#">more</a>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="about-us">
+
+        </section>
+
+
+        <section id="get-started">
+
+        </section>
+
+
+    </main>
+
+
+    <footer class="bg-black">
+        <p class="c-white p-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi minus dolorum enim assumenda, ratione corrupti voluptas a ex nobis numquam ut, excepturi quis, praesentium sunt. Ullam possimus eligendi aut fuga.</p>
+        <p class="c-white p-8"><a class="c-lilac" href="#">Lorem ipsum</a> dolor sit amet.</p>
+        <p><a class="c-lilac" href="#">Boolean Careers</a></p>
+    </footer>
+
+</body>
+
 </html>

@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    text-decoration: none;
+    display: none;
+}
+
+.demo-card, .testimonial-card {
+    min-height: 20vh;
+    margin: 8px;
+}
+
+.planning {
+    min-height: 50vh;
+}
+
+h1, h2, h3, p {
+    text-align: center;
+    margin: 8px;
+}
+
+@media screen and (min-width: 768px) {
+    #demo-container { 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .demo-card {
+        width: 30%;
+        margin: 8px 0;
+    }
+
+    .large {
+        width: 65%;
+    }
+
+    .plan { width: 100%;}
+
+    #benefit-container { flex-wrap: wrap; flex-direction: row;}
+
+    .benefit-card { width: calc(100 / 2 - 16px);}
+
+    footer > p { width: 40%; text-align: center; margin: auto;}
+}
+
+@media screen and (min-width: 1024px) {
+    .navbar-item { display: inline-block; }
+    .fa-bars { display: none; }
+    #demo, #testimonials, #benefits, #about-us, #get-started { 
+        width: 70%; 
+        max-width: 1024px;
+        margin: auto;
+    }
+
+    .plan { width: 60%; }
+
+    #benefit-container { flex-wrap: wrap; flex-direction: row;}
+
+    .benefit-card { width: calc(100 / 3 - 24px);}
+
+    footer > p { width: 20%; text-align: center; margin: auto;}
+}
