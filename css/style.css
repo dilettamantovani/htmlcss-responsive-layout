@@ -18,10 +18,17 @@
     min-height: 50vh;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p, span {
     text-align: center;
     margin: 8px;
 }
+
+#get-started { min-height: 30vh;}
+
+.benefit-btn, #linkedIn, #get-started-btn { text-decoration: none; }
+
+#get-started-btn { text-align: center;}
+
 
 @media screen and (min-width: 768px) {
     #demo-container { 
@@ -41,9 +48,16 @@ h1, h2, h3, p {
 
     .plan { width: 100%;}
 
-    #benefit-container { flex-wrap: wrap; flex-direction: row;}
+    #benefits-container {flex-wrap: wrap; flex-direction: row; justify-content: space-evenly;}
 
-    .benefit-card { width: calc(100 / 2 - 16px);}
+    .benefit-card { width: calc(100% / 2 - 64px); }
+
+    .benefits-card > h2, h3, p, .benefit-btn { text-align: left;}
+
+    #about-us { flex-wrap: wrap; flex-direction: row; justify-content: space-evenly;}
+
+    #about-txt { width: 60%; }
+    #about-img { width: 40%; }
 
     footer > p { width: 40%; text-align: center; margin: auto;}
 }
@@ -59,9 +73,12 @@ h1, h2, h3, p {
 
     .plan { width: 60%; }
 
-    #benefit-container { flex-wrap: wrap; flex-direction: row;}
+    #benefits-container { flex-wrap: wrap; flex-direction: row; justify-content: space-evenly;}
 
-    .benefit-card { width: calc(100 / 3 - 24px);}
+    .benefit-card { width: calc(100% / 3 - 96px); }
+
+    #about-txt { width: 80%; }
+    #about-img { width: 20%; }
 
     footer > p { width: 20%; text-align: center; margin: auto;}
 }

@@ -37,6 +37,8 @@
 .w-100 { width: 100%; }
 
 /* PADDING */
+.p-arrow { padding: 4px 6px}
+
 .p-4 { padding: 4px; }
 .pt-4 { padding-top: 4px; }
 .pr-4 { padding-right: 4px; }
@@ -167,6 +169,7 @@
 /* BORDER-STYLES */
 .radius-16 { border-radius: 16px; }
 .radius-6 { border-radius: 6px; }
+.radius-50 { border-radius: 50%; }
 
 
 /* COLORS */
@@ -178,5 +181,6 @@
 
 .c-white { color: white; }
 .c-lilac { color: #9792E4}
+.c-orange { color: #FDC15F; }
 
 
